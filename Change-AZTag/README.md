@@ -4,7 +4,7 @@
 
 ## 📄 Descripción
 
-Este script en PowerShell busca todos los recursos y grupos de recursos en Azure que tienen la etiqueta `owner: TEC-IT BUSINESS A` y la cambia a `owner: TEC-IT BUSINESS B`. El script puede ejecutarse en una suscripción específica o en un grupo de recursos específico.
+Este script en PowerShell busca todos los recursos y grupos de recursos en Azure que tienen la etiqueta `owner: valorA` y la cambia a `owner: valorB`. El script puede ejecutarse en una suscripción específica o en un grupo de recursos específico.
 
 ## ⚙️ Parámetros
 
@@ -24,12 +24,12 @@ Este script en PowerShell busca todos los recursos y grupos de recursos en Azure
 ```powershell
 .\Change-AZTags.ps1 -SubscriptionId "tu-suscripcion-id"
 ```
-#### Ejecutar en una suscripción específica
+#### Ejecutar en un grupo de recursos específica
 
 ```
 .\Change-AZTags.ps1 -SubscriptionId "tu-suscripcion-id" -ResourceGroupName "tu-grupo-de-recursos"
 ```
-### 💻 Script [Change-AZTag.ps1](http://www.contoso.com/)
+### 💻 Script 
 
 
 ```
