@@ -35,7 +35,7 @@ Este script en PowerShell busca todos los recursos y grupos de recursos en Azure
 ```
 <#
 .SYNOPSIS
-    Script para cambiar la etiqueta 'owner: TEC-IT BUSINESS A' por 'owner: TEC-IT BUSINESS RETAIL' en recursos y grupos de recursos en Azure.
+    Script para cambiar la etiqueta 'owner: valorA' por 'owner: ValorB' en recursos y grupos de recursos en Azure.
 .DESCRIPTION
     Este script busca todos los recursos y grupos de recursos en Azure que tienen la etiqueta 'owner: TEC-IT BUSINESS B' y la cambia a 'owner: TEC-IT BUSINESS RETAIL'.
 .PARAMETER SubscriptionId
@@ -60,8 +60,8 @@ if ($SubscriptionId) {
 }
 
 # Definir las etiquetas a buscar y reemplazar
-$oldTag = "TEC-IT BUSINESS A"
-$newTag = "TEC-IT BUSINESS B"
+$oldTag = "ValorA"
+$newTag = "ValorB"
 
 # Función para cambiar el color del texto
 function Write-Color {
